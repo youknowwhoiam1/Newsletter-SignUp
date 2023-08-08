@@ -8,7 +8,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res) {
-    console.log("changed again")
+    console.log("changed again again")
     res.sendFile(__dirname + "/signup.html");
 });
 
